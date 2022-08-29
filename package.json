@@ -1,0 +1,23 @@
+{
+  "name": "kanban-users",
+  "version": "1.0.0",
+  "description": "users database for kanban board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -q index.js"
+  },
+  "keywords": [],
+  "author": "Tawhid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.11"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
